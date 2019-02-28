@@ -1,0 +1,314 @@
+.section-header-1 {
+	background-color: none;
+	height: 120px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.sub-menu {
+	background-color: rgb(93,93,93);
+	height: 25px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.menu-1 {
+    background-color: rgb(74, 74, 74);
+    height: 95px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 25px;
+}
+
+.Logo {
+    width: 186px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    left: 80px;
+    top: 13%;
+}
+
+.Nav-menu {
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 23px;
+    margin-bottom: 22px;
+    left: 300px;
+}
+
+.help-chat {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    right: 550px;
+    margin: 16px 0px;    
+}
+
+.Nav-sub-menu {
+    height: 70px;
+    width: 350px;
+    margin: 13px 20px 12px 20px;
+    background-color: none;
+    position: absolute;
+    right: 50px;
+    top: 0px;
+}
+
+.menu-text {
+	color: white;
+    font-size: 2.5em;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.image-user {
+	height: 64px;
+    width: 64px;
+    margin: 3px 0px 3px 0px;
+}
+
+.image-profile-user {
+    height: 70px;
+    width: 160px;
+    margin: 0px 20px;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.image-basket-bag {
+    height: 70px;
+    width: 100px;
+    margin: 0px 20px;
+    white-space: nowrap;
+    position: absolute;
+    right: 0px;
+}
+
+.image-basket {
+    height: 64px;
+    width: 64px;
+}
+
+/*Content section index*/
+
+.section-content-1 {
+    height: 700px;
+    width: 75%;
+    margin: 8% 12% 0% 13%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.news-block {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 1050px;
+    position: absolute;
+}
+
+.new-product {
+    height: 700px;
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    overflow-y: scroll;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.photo-new-product {
+   height: 300px;
+   width: 300px; 
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 30px;
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+/*--------------------SCROLL---------------------*/
+
+#style-4::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border: 2px solid #555555;
+}
+
+/*-------------------END SCROLL------------------*/
+
+/*Content section story*/
+
+.section-content-2 {
+    background-color: none;
+    height: 800px;
+    width: 80%;
+    margin: 8% 10% 0% 10%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.left-filter-menu {
+    background: #ffffff;
+    height: 800px;
+    width: 220px;
+    position: absolute;
+}
+
+.fold-filter {
+    background-color: grey;
+}
+
+.box-product {
+    background: #ffffff;
+    height: 800px;
+    width: 1300px;
+    position: absolute;
+    right: 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.product {
+    background: white;
+    display: inline-block;
+    height: 350px;
+    margin: 1rem;
+    position: relative;
+    width: 284px;
+    border: 3px solid black;
+    border-radius: 0px 40px 0px 40px;
+    text-align: center;
+}
+
+.product-image-1 {
+    height: 220px;
+    width: 280px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px 10px;
+}
+
+/*Section content about*/
+
+.section-content-3 {
+    background-color: white;
+    height: 600px;
+    width: 30%;
+    position: absolute;
+    margin: 13% 20% 0% 20%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.my-avatar {
+    height: 245px;
+    width: 180px;
+    margin: 15px;
+    position: absolute;
+}
+
+.field-test {
+    margin: 30px 5px 20px 230px;
+}
+
+.test-1 {
+    margin: 5px 100px 5px 220px;
+}
+/*Contact Us*/
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    bottom: 136px;
+    left: 55%;
+    width: 25%;
+}
+
+/*Section footer*/
+
+.section-footer-1 {
+    height: 70px;
+    width: 100%;
+    background-color: none;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+.error_cont {
+    background-color: rgba(91,92,93,0.4);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    padding: 10px 10px;
+}
